@@ -1,0 +1,53 @@
+body {
+
+}
+
+
+header {
+  background-image: url('images/pdp.jpg');
+  min-height: 60vh;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+
+}
+
+.header-content-block {
+    background-color: #888888;
+    padding : 2em;
+
+}
+
+.header-content-block h1 {
+    font-size: 4em;
+}
+
+#bio {
+
+}
+
+.bio-content-block {
+
+}
+
+#comp {
+
+}
+
+.comp-section-content {
+
+}
+
+#portfolio {
+
+}
+
+footer {
+
+}

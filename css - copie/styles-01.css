@@ -1,0 +1,179 @@
+/*
+Brown : #4F4444;
+White : #ffffff;
+Grey 01 : #aaaaaa;
+Grey 02 : #888888;
+Turquoise : #9acbb5;
+Dark Green : #334444;
+red : #ff0303
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+  background-color : #fff;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+}
+
+h1,  h3, h4, h5, h6 {
+  color : #000;
+  text-align: center;
+}
+
+h1 {font-family: 'Medula One', cursive;
+
+}
+h3 {
+  color : #fff;
+font-family: 'Medula One', cursive;
+font-size:2em;
+}
+
+h4{
+  font-size: 5em;
+  color: #fff;
+  font-family: 'Medula One', cursive;
+
+
+}
+p{
+  color: #000;
+  font-family: 'Lato', sans-serif;
+
+}
+
+li{color: #fff;
+text-align: center;}
+
+span{color: #fff;
+text-align: center;}
+
+a {
+  color : #000;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color : #aaaaaa;
+}
+
+/*a::after {
+  content: "> ";
+}
+*/
+header {
+  min-height: 80vh;
+  background-image: url('images/pdp.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+
+}
+
+.header-content-block {
+  background: rgba(255,255,255,0.6);
+  padding : 22px;
+  text-align: center;
+}
+
+.header-content-block h1 {
+  font-size: 8em;
+}
+
+#bio {
+  min-height: 45vh;
+}
+
+#bio h1 {
+font-size: 5em;
+
+}
+
+.bio-content-block {
+  max-width: 960px;
+  margin: 0 auto;
+  columns: 2;
+}
+
+
+#comp {
+  background-color: #000;
+  color : #fff;
+}
+
+#comp h1 {
+  font-size: 5em;
+}
+
+.comp-section-content {
+ display: flex;
+ justify-content: space-around;
+}
+
+.comp-content {
+  background-color: #fff;
+  width : auto;
+  margin : 20px;
+}
+
+.comp-content p {
+  padding: 1em;
+
+}
+
+.comp-content img {
+  width : 100%;
+}
+
+.comp-content a {
+  display: block;
+  padding : 1em;
+  float: right;
+}
+
+#portfolio h1{
+font-size: 5em;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+
+}
+
+.portfolio-content-item {
+  max-width: 550px;
+  margin : 10px;
+  position : relative;
+}
+
+.portfolio-content-item h2 {
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  transform: translateX(-50%) translateY(-80%);
+  background: rgba(255,255,255,0.6);
+  padding : 5px;
+  text-align: center;
+}
+
+.portfolio-content-item img {
+  width : 100%;
+}
+
+footer {
+  background-color: #000;
+  padding: 3em;
+  text-align: left;
+
+}
